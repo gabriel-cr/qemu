@@ -111,3 +111,7 @@ qga-vss-dll-obj-y = qga/
 # contrib
 ivshmem-client-obj-y = contrib/ivshmem-client/
 ivshmem-server-obj-y = contrib/ivshmem-server/
+
+######################################################################
+# QSDK
+common-obj-y += qsdk_helper.o
